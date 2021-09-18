@@ -1,3 +1,5 @@
+Demo SaSS profits dashboard that demonstrates use and proficiency in React, yarn, and Styled Components
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
