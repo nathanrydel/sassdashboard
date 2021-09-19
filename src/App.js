@@ -1,8 +1,15 @@
 import './App.css';
 import styled from 'styled-components';
+import sidebar from './Components/sidebar';
+import mainContent from './Components/mainContent';
 
 function App() {
-  return <Container></Container>;
+  return (
+    <Container>
+      <sidebar />
+      <mainContent />
+    </Container>
+  );
 }
 
 const Container = styled.div`
