@@ -8,7 +8,7 @@ function Navbar() {
         <NavbarContainer>
             <Text>
                 Good morning,
-                <span>Ryan</span>
+                <span> Ryan</span>
             </Text>
             <InputContainer>
                 <Icon>
