@@ -63,6 +63,7 @@ const Avatar = styled.img`
     width: 60%;
     border-radius: 50%;
     margin-top: 18%;
+    cursor: pointer;
 `;
 
 const Name = styled.h1`
