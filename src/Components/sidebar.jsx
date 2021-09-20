@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { RiHomeLine, RiFileCopyLine } from "react-icons/ri";
+import { FaWallet } from "react-icons/fa";
+import { AiOutlinePieChart } from "react-icons/ai";
 import Badge from './Badge';
 import ProfileImage from  "..//assets/ProfileImage01.jpg";
 import { darkThemeColor } from '../utils';
@@ -13,6 +16,26 @@ function Sidebar() {
                 <Name>Ryan Anderson</Name>
                 <Badge content="Pro" />
             </ProfileContainer>
+            <LinksContainer>
+                <Links>
+                    <Link>
+                        <RiHomeLine />
+                        <h3>Dashboard</h3>
+                    </Link>
+                    <Link>
+                        <RiFileCopyLine />
+                        <h3>Projects</h3>
+                    </Link>
+                    <Link>
+                        <FaWallet />
+                        <h3>Invoices</h3>
+                    </Link>
+                    <Link>
+                        <AiOutlinePieChart />
+                        <h3>Reports</h3>
+                    </Link>
+                </Links>
+            </LinksContainer>
     </Container>
     );
 }
@@ -47,6 +70,13 @@ const Name = styled.h1`
     font-size: 1.5rem;
     font-weight: 400;
     margin: .75rem 0 .5rem 0;
+`;
+
+const LinksContainer = styled.div`
+    background-color: ${darkThemeColor};
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
 `;
 
 // const Container = styled.div``;
