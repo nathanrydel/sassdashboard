@@ -86,6 +86,22 @@ const Links = styled.ul`
     padding-top: 1.5rem;
     height: 48%;
 `;
+
+const Link = styled.li`
+    margin-left: 25%;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    color: #e4e4e4;
+    cursor: pointer;
+    h3 {
+        font-weight: 300;
+    }
+    svg {
+        font-size: 1.2rem;
+        margin-top: 2%;
+    }
+`;
 // const Container = styled.div``;
 
 export default Sidebar
