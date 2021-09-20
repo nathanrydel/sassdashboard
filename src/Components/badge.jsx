@@ -10,7 +10,7 @@ function Badge({ content }) {
 }
 
 const Div = styled.div`
-    padding: 0%.3rem 1rem;
+    padding: 0.3rem 1rem;
     border-radius: 1rem;
     font-weight: 500;
     color: white;
