@@ -36,6 +36,10 @@ function Sidebar() {
                     </Link>
                 </Links>
             </LinksContainer>
+            <ContactContainer>
+                <span> Have a problem?</span>
+                <a href="/" target="_blank">Contact us</a>
+            </ContactContainer>
     </Container>
     );
 }
@@ -102,6 +106,23 @@ const Link = styled.li`
     svg {
         font-size: 1.2rem;
         margin-top: 2%;
+    }
+`;
+
+const ContactContainer = styled.div`
+    width: 60%;
+    background-color: #030e1f;
+    color: #e4e4e4;
+    height: 20%;
+    margin: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    a {
+        color: white;
+        text-decoration: none;
     }
 `;
 // const Container = styled.div``;
