@@ -1,6 +1,6 @@
 import React from 'react'
 
-function sidebar() {
+function Sidebar() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function sidebar() {
     )
 }
 
-export default sidebar
+export default Sidebar

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { themeColor } from "../utils"
 
-function badge() {
+function Badge() {
     return (
         <div>
             
@@ -20,4 +20,4 @@ cursor: pointer;
 `;
 
 
-export default badge
+export default Badge

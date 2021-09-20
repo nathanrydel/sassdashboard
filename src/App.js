@@ -1,13 +1,13 @@
 import './App.css';
 import styled from 'styled-components';
-import sidebar from './Components/sidebar';
-import mainContent from './Components/mainContent';
+import Sidebar from './Components/Sidebar';
+import MainContent from './Components/MainContent';
 
 function App() {
   return (
     <Container>
-      <sidebar />
-      <mainContent />
+      <Sidebar />
+      <MainContent />
     </Container>
   );
 }
