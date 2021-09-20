@@ -20,7 +20,13 @@ function MainContent() {
     );
 }
 
-const Container = styled.div``;
+const Container = styled.div`
+    width: 80%;
+    background: linear-gradient(to bottom right, white 0%right, #bcc3db 70%);
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin: 1rem 8rem 1rem 4rem;
+`;
 
 const SubContainer = styled.div``;
 
