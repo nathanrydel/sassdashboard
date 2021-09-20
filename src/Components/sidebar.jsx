@@ -53,7 +53,8 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    width: 180px;
+    min-width: 180px;
+    max-width: 240px;
 `;
 
 const ProfileContainer = styled.div`
