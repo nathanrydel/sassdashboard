@@ -85,6 +85,7 @@ const Links = styled.ul`
     flex-direction: column;
     padding-top: 1.5rem;
     height: 48%;
+    margin-right: 15px;
 `;
 
 const Link = styled.li`
