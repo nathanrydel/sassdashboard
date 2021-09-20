@@ -9,9 +9,9 @@ function MainContent() {
       <Navbar />
       <SubContainer>
         <SectionOne>
-          <ColumnOne1>
+          <EarningsColumn>
             <Earnings />
-          </ColumnOne1>
+          </EarningsColumn>
           <ColumnTwo1></ColumnTwo1>
         </SectionOne>
         <SectionTwo>
@@ -58,7 +58,7 @@ const SectionTwo = styled.div`
   height: 26vh;
 `;
 
-const ColumnOne1 = styled.div`
+const EarningsColumn = styled.div`
   display: flex;
   gap: 2rem;
 `;
