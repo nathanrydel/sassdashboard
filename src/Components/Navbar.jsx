@@ -16,7 +16,6 @@ function Navbar() {
                 </Icon>
                 <Input type="text" placeholder="Search for projects" />
             </InputContainer>
-            
         </NavbarContainer>
     );
 }
@@ -62,7 +61,6 @@ const Input = styled.input`
         border: none;
         outline: none;
     }
-
 `;
 
 export default Navbar
