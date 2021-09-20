@@ -6,7 +6,8 @@ import { darkThemeColor } from '../utils';
 
 
 function Sidebar() {
-    return (<Container>
+    return (
+    <Container>
             <ProfileContainer>
                 <Avatar src= {ProfileImage} />
                 <Name>Ryan Anderson</Name>
@@ -35,18 +36,19 @@ const ProfileContainer = styled.div`
 `;
 
 const Avatar = styled.img`
-    height: 6rem;
-    border-radius: 5rem;
-    margin-top: 18%auto;
+    height: 7rem;
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 18%;
 `;
 
 const Name = styled.h1`
     color: white;
-    font: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: .75rem 0 .5rem 0;
 `;
 
-const Container = styled.div``;
+// const Container = styled.div``;
 
 export default Sidebar
