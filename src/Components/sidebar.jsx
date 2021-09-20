@@ -79,6 +79,13 @@ const LinksContainer = styled.div`
     border-radius: 1rem;
 `;
 
+const Links = styled.ul`
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    height: 48%;
+`;
 // const Container = styled.div``;
 
 export default Sidebar
