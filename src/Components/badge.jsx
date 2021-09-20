@@ -4,12 +4,12 @@ import { themeColor } from "../utils"
 
 function Badge({ content }) {
     return (
-        <div> { content }   
-        </div>
+        <Div> { content }   
+        </Div>
     )
 }
 
-const div = styled.div`
+const Div = styled.div`
     padding: 0%.3rem 1rem;
     border-radius: 1rem;
     font-weight: 500;
