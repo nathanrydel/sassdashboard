@@ -8,12 +8,14 @@ function MainContent() {
     <Container>
       <Navbar />
       <SubContainer>
-        <SectionOne>
+        <EandPSection>
           <EarningsColumn>
             <Earnings />
           </EarningsColumn>
-          <ColumnTwo1></ColumnTwo1>
-        </SectionOne>
+          <ProjectsColumn>
+            <TitleText>Your Projects</TitleText>
+          </ProjectsColumn>
+        </EandPSection>
         <SectionTwo>
           <ColumnOne2></ColumnOne2>
           <ColumnTwo2></ColumnTwo2>
@@ -44,7 +46,7 @@ const TitleText = styled.h3`
   height: 20%;
 `;
 
-const SectionOne = styled.div`
+const EandPSection = styled.div`
   display: flex;
   justify-content: space-between;
   height: 35%;
@@ -65,7 +67,7 @@ const EarningsColumn = styled.div`
 
 const ColumnOne2 = styled.div``;
 
-const ColumnTwo1 = styled.div`
+const ProjectsColumn = styled.div`
   display: flex;
   flex-direction: column;
   height: 105%;
