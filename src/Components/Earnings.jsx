@@ -27,6 +27,7 @@ const EarningsCard = styled.div`
   color: white;
   transition: 0.5s ease-in-out;
   &:hover {
+    cursor: pointer;
     box-shadow: ${hoverEffect};
   }
 `;
