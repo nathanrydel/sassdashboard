@@ -17,8 +17,12 @@ function MainContent() {
           </ProjectsColumn>
         </EandPSection>
         <IandPRSection>
-          <InvoiceColumn></InvoiceColumn>
-          <ProjectRecsCol></ProjectRecsCol>
+          <InvoiceColumn>
+            <TitleText>Recent Invoices</TitleText>
+          </InvoiceColumn>
+          <ProjectRecsCol>
+            <TitleText>Recommended Projects</TitleText>
+          </ProjectRecsCol>
         </IandPRSection>
       </SubContainer>
     </Container>
