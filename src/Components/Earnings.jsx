@@ -12,7 +12,7 @@ function Earnings() {
         </Chart>
         <EarningsText>Earnings</EarningsText>
         <Earning>$11,875</Earning>
-        <EarningsIncrease>14% since last month</EarningsIncrease>
+        <EarningsIncrease>+ 14% since last month</EarningsIncrease>
       </CardContent>
     </EarningsCard>
   );
