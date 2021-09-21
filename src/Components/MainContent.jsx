@@ -16,10 +16,10 @@ function MainContent() {
             <TitleText>Your Projects</TitleText>
           </ProjectsColumn>
         </EandPSection>
-        <SectionTwo>
-          <ColumnOne2></ColumnOne2>
-          <ColumnTwo2></ColumnTwo2>
-        </SectionTwo>
+        <IandPRSection>
+          <InvoiceColumn></InvoiceColumn>
+          <ProjectRecsCol></ProjectRecsCol>
+        </IandPRSection>
       </SubContainer>
     </Container>
   );
@@ -54,7 +54,7 @@ const EandPSection = styled.div`
   gap: 2rem;
 `;
 
-const SectionTwo = styled.div`
+const IandPRSection = styled.div`
   display: flex;
   gap: 2rem;
   height: 26vh;
@@ -65,7 +65,7 @@ const EarningsColumn = styled.div`
   gap: 2rem;
 `;
 
-const ColumnOne2 = styled.div``;
+const InvoiceColumn = styled.div``;
 
 const ProjectsColumn = styled.div`
   display: flex;
@@ -74,6 +74,6 @@ const ProjectsColumn = styled.div`
   width: 100%;
 `;
 
-const ColumnTwo2 = styled.div``;
+const ProjectRecsCol = styled.div``;
 
 export default MainContent;
