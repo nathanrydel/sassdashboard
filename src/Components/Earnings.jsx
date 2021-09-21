@@ -18,16 +18,48 @@ function Earnings() {
   );
 }
 
-const EarningsCard = styled.div``;
+const EarningsCard = styled.div`
+  height: 100%;
+  width: 15rem;
+  background-color: ${themeColor};
+  padding: 1rem;
+  border-radius: 0.8rem;
+  color: white;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
+`;
 
-const CardContent = styled.div``;
+const CardContent = styled.div`
+  margin: 1rem;
+`;
 
-const Chart = styled.div``;
+const Chart = styled.div`
+  display: flex;
+  justify-content: center;
+  svg {
+    height: 5rem;
+    width: 5rem;
+  }
+`;
 
-const EarningsText = styled.h3``;
+const EarningsText = styled.h3`
+  text-align: center;
+  font-weight: normal;
+  padding: 0.4rem 0;
+`;
 
-const Earning = styled.h2``;
+const Earning = styled.h2`
+  text-align: center;
+`;
 
-const EarningsIncrease = styled.h5``;
+const EarningsIncrease = styled.h5`
+  text-align: center;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  border-radius: 1rem;
+`;
 
 export default Earnings;
