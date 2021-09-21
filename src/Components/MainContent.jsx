@@ -18,7 +18,9 @@ function MainContent() {
         </EandPSection>
         <IandPRSection>
           <InvoiceColumn>
-            <TitleText>Recent Invoices</TitleText>
+            <InvoiceContainer>
+              <TitleText>Recent Invoices</TitleText>
+            </InvoiceContainer>
           </InvoiceColumn>
           <ProjectRecsCol>
             <TitleText>Recommended Projects</TitleText>
@@ -79,5 +81,9 @@ const ProjectsColumn = styled.div`
 `;
 
 const ProjectRecsCol = styled.div``;
+
+const InvoiceContainer = styled.div`
+  height: 60%;
+`;
 
 export default MainContent;
