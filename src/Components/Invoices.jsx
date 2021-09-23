@@ -91,7 +91,9 @@ const TextContainer = styled.div`
 
 const Title = styled.h4``;
 
-const SubTitle = styled.h5``;
+const SubTitle = styled.h5`
+  font-weight: 400;
+`;
 
 //const InvoicesContainer = styled.div``;
 
