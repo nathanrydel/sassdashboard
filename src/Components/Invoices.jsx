@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Badge from './Badge';
 import ProfileImage from '../assets/ProfileImage05';
 import ProfileImage2 from '../assests/ProfileImage06';
+import { cardShadow, hoverEffect } from '..//utils';
 
 function Invoices() {
   return (
@@ -43,7 +44,18 @@ function Invoices() {
   );
 }
 
-const InvoicesContainer = styled.div``;
+const InvoicesContainer = styled.div`
+  width: 40rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  height: 135%;
+  box-shadow: ${cardShadow};
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
+`;
 
 const CardContent = styled.div``;
 
