@@ -77,7 +77,13 @@ const Info = styled.div`
   width: 50%;
 `;
 
-const Profile = styled.div``;
+const Profile = styled.div`
+  img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 4rem;
+  }
+`;
 
 const TextContainer = styled.div``;
 
