@@ -71,7 +71,11 @@ const StatusContainer = styled.div``;
 
 const Price = styled.div``;
 
-const Info = styled.div``;
+const Info = styled.div`
+  display: flex;
+  align-items: center;
+  width: 50%;
+`;
 
 const Profile = styled.div``;
 
