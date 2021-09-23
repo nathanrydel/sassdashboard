@@ -59,7 +59,13 @@ const InvoicesContainer = styled.div`
 
 const CardContent = styled.div``;
 
-const Invoice = styled.div``;
+const Invoice = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0.5rem;
+  padding-top: 0.6rem;
+`;
 
 const StatusContainer = styled.div``;
 
