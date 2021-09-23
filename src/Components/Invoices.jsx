@@ -14,10 +14,10 @@ function Invoices() {
             <Profile>
               <img src={ProfileImage} alt='profile for account' />
             </Profile>
-            <TextContainer>
-              <Title>Madison Rogers</Title>
-              <SubTitle>Acme Widgets, LLC</SubTitle>
-            </TextContainer>
+            <ProfileDescription>
+              <Name>Madison Rogers</Name>
+              <Company>Acme Widgets, LLC</Company>
+            </ProfileDescription>
           </Info>
           <StatusContainer>
             <Badge content='Paid' paid />
@@ -29,10 +29,10 @@ function Invoices() {
             <Profile>
               <img src={ProfileImage2} alt='profile for account' />
             </Profile>
-            <TextContainer>
-              <Title> Hailey Renee</Title>
-              <SubTitle> DynaCore Systems, Inc.</SubTitle>
-            </TextContainer>
+            <ProfileDescription>
+              <Name> Hailey Renee</Name>
+              <Company> DynaCore Systems, Inc.</Company>
+            </ProfileDescription>
           </Info>
           <StatusContainer>
             <Badge content='Late' late />
@@ -85,16 +85,14 @@ const Profile = styled.div`
   }
 `;
 
-const TextContainer = styled.div`
+const ProfileDescription = styled.div`
   margin-left: 1rem;
 `;
 
-const Title = styled.h4``;
+const Name = styled.h4``;
 
-const SubTitle = styled.h5`
+const Company = styled.h5`
   font-weight: 400;
 `;
-
-//const InvoicesContainer = styled.div``;
 
 export default Invoices;
