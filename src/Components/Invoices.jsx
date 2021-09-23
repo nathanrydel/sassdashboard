@@ -85,7 +85,9 @@ const Profile = styled.div`
   }
 `;
 
-const TextContainer = styled.div``;
+const TextContainer = styled.div`
+  margin-left: 1rem;
+`;
 
 const Title = styled.h4``;
 
