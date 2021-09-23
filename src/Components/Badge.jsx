@@ -4,8 +4,7 @@ import { themeColor } from '../utils';
 
 function Badge({ content, clean = false, glow = false, paid = false, late = false }) {
   return (
-    <Div glow={glow} paid={paid} late={late}>
-      {' '}
+    <Div clean={clean} glow={glow} paid={paid} late={late}>
       {content}
     </Div>
   );
