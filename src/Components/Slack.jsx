@@ -59,7 +59,9 @@ const SlackLogo = styled.div`
   }
 `;
 
-const SlackText = styled.div``;
+const SlackText = styled.div`
+  color: white;
+`;
 
 const SlackHead = styled.h2``;
 
