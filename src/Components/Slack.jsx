@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaSlack } from 'react-icons/fa';
-import { darkThemeColor, hoverEffect, themeColor } from '../utils';
+import { darkThemeColor, themeColor, hoverEffect } from '../utils';
 
 function Slack() {
   return (
@@ -72,6 +72,16 @@ const SlackFoot = styled.h5`
   font-weight: normal;
 `;
 
-const SlackJoin = styled.button``;
+const SlackJoin = styled.button`
+  background-color: ${themeColor};
+  border: none;
+  outline: none;
+  padding: 2rem 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+`;
 
 export default Slack;
