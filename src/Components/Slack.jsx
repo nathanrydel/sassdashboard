@@ -22,7 +22,18 @@ function Slack() {
   );
 }
 
-const JoinChannel = styled.div``;
+const JoinChannel = styled.div`
+  background-color: ${darkThemeColor};
+  height: 50%;
+  margin-top: 6rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
+`;
 
 const CardContent = styled.div``;
 
