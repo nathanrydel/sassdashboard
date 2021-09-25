@@ -67,7 +67,10 @@ const SlackHead = styled.h2`
   font-weight: 500;
 `;
 
-const SlackFoot = styled.h5``;
+const SlackFoot = styled.h5`
+  color: #e4e4e4;
+  font-weight: normal;
+`;
 
 const SlackJoin = styled.button``;
 
