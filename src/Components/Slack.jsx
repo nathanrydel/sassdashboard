@@ -47,7 +47,17 @@ const SlackCard = styled.div`
   display: flex;
 `;
 
-const SlackLogo = styled.div``;
+const SlackLogo = styled.div`
+  margin-right: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    color: white;
+    height: 4rem;
+    width: 4rem;
+  }
+`;
 
 const SlackText = styled.div``;
 
