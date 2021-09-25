@@ -43,7 +43,9 @@ const CardContent = styled.div`
   justify-content: space-between;
 `;
 
-const SlackCard = styled.div``;
+const SlackCard = styled.div`
+  display: flex;
+`;
 
 const SlackLogo = styled.div``;
 
