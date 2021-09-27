@@ -25,7 +25,7 @@ function MainContent() {
           <InvoiceColumn>
             <InvoiceContainer>
               <TitleText>Recent Invoices</TitleText>
-              <Invoice />
+              <Invoices />
             </InvoiceContainer>
           </InvoiceColumn>
           <ProjectRecsCol>
