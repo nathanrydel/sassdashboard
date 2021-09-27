@@ -30,4 +30,17 @@ function Projects() {
   );
 }
 
+const UserProjects = styled.div`
+  height: 70%;
+  background-color: white;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: ${cardShadow};
+  transition: 0.4s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
+`;
+
 export default Projects;
