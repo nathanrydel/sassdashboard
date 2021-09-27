@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Badge from './Badge';
-import ProfileImage from '../assets/ProfileImage05';
-import ProfileImage2 from '../assests/ProfileImage06';
+import ProfileImage from '../assets/ProfileImage05.jpg';
+import ProfileImage02 from '../assets/ProfileImage06.jpg';
 import { cardShadow, hoverEffect } from '..//utils';
 
 function Invoices() {
@@ -27,7 +27,7 @@ function Invoices() {
         <Invoice>
           <Info>
             <Profile>
-              <img src={ProfileImage2} alt='profile for account' />
+              <img src={ProfileImage02} alt='profile for account' />
             </Profile>
             <ProfileDescription>
               <Name> Hailey Renee</Name>
