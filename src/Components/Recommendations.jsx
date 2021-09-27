@@ -49,13 +49,13 @@ const Profile = styled.div``;
 
 const Info = styled.div``;
 
-const ProfileName = styled.div``;
+const ProfileName = styled.h3``;
 
-const ProfileUpdate = styled.div``;
+const ProfileUpdate = styled.h5``;
 
-const Title = styled.div``;
+const Title = styled.h4``;
 
-const ProjectInfo = styled.div``;
+const ProjectInfo = styled.p``;
 
 const PriceContainer = styled.div``;
 
