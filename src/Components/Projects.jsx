@@ -57,4 +57,8 @@ const Profile = styled.div`
   }
 `;
 
+const Description = styled.div`
+  margin-left: 1rem;
+`;
+
 export default Projects;
