@@ -85,9 +85,22 @@ const Title = styled.h4`
   font-weight: 500;
 `;
 
-const ProjectInfo = styled.p``;
+const ProjectInfo = styled.p`
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  font-size: 0.8rem;
+  color: #3b3b3b;
+`;
 
-const PriceContainer = styled.div``;
+const PriceContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: rgba(146, 166, 255, 0.3);
+`;
 
 const Price = styled.div``;
 
