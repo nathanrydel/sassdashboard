@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Earnings from './Earnings';
 import Info from './Info';
 import Projects from './Projects';
+import Invoices from './Invoices';
 
 function MainContent() {
   return (
@@ -24,6 +25,7 @@ function MainContent() {
           <InvoiceColumn>
             <InvoiceContainer>
               <TitleText>Recent Invoices</TitleText>
+              <Invoice />
             </InvoiceContainer>
           </InvoiceColumn>
           <ProjectRecsCol>
