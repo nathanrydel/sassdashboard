@@ -58,7 +58,10 @@ const Detail = styled.div`
   align-items: center;
 `;
 
-const InfoContainer = styled.div``;
+const InfoContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
 
 const Profile = styled.div``;
 
