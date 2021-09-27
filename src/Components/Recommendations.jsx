@@ -48,7 +48,9 @@ const RecommendProject = styled.div`
   }
 `;
 
-const CardContent = styled.div``;
+const CardContent = styled.div`
+  margin: 0.5rem;
+`;
 
 const ProjectInfo = styled.div``;
 
