@@ -49,4 +49,12 @@ const Project = styled.div`
   margin-bottom: 0.3rem;
 `;
 
+const Profile = styled.div`
+  img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+  }
+`;
+
 export default Projects;
