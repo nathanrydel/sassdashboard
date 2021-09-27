@@ -26,9 +26,36 @@ function Recommendations() {
           illo harum molestiae voluptatem. Cumque id debitis dolor nemo eaque quos delectus reiciendis tempora eius, nulla quibusdam optio,
           non vero ducimus sunt nostrum!
         </ProjectInfo>
+        <PriceContainer>
+          <Price>7.4k/month</Price>
+          <Badge content='Full Time' clean />
+        </PriceContainer>
       </CardContent>
     </RecommendProject>
   );
 }
 
+const RecommendProject = styled.div``;
+
+const CardContent = styled.div``;
+
+const ProjectInfo = styled.div``;
+
+const Detail = styled.div``;
+
+const InfoContainer = styled.div``;
+
+const Profile = styled.div``;
+
+const Info = styled.div``;
+
+const ProfileName = styled.div``;
+
+const ProfileUpdate = styled.div``;
+
+const Title = styled.div``;
+
+const ProjectInfo = styled.div``;
+
+const PriceContainer = styled.div``;
 export default Recommendations;
