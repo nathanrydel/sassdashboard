@@ -58,4 +58,7 @@ const Title = styled.div``;
 const ProjectInfo = styled.div``;
 
 const PriceContainer = styled.div``;
+
+const Price = styled.div``;
+
 export default Recommendations;
