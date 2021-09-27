@@ -73,7 +73,9 @@ const Profile = styled.div`
 
 const Info = styled.div``;
 
-const ProfileName = styled.h3``;
+const ProfileName = styled.h3`
+  font-weight: 500;
+`;
 
 const ProfileUpdate = styled.h5``;
 
