@@ -52,8 +52,6 @@ const CardContent = styled.div`
   margin: 0.5rem;
 `;
 
-const ProjectInfo = styled.div``;
-
 const Detail = styled.div``;
 
 const InfoContainer = styled.div``;
