@@ -63,7 +63,13 @@ const InfoContainer = styled.div`
   align-items: center;
 `;
 
-const Profile = styled.div``;
+const Profile = styled.div`
+  margin-right: 1rem;
+  img {
+    height: 5rem;
+    border-radius: 5rem;
+  }
+`;
 
 const Info = styled.div``;
 
