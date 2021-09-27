@@ -52,7 +52,11 @@ const CardContent = styled.div`
   margin: 0.5rem;
 `;
 
-const Detail = styled.div``;
+const Detail = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
 
 const InfoContainer = styled.div``;
 
