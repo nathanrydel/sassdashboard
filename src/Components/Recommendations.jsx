@@ -81,7 +81,9 @@ const ProfileUpdate = styled.h5`
   font-weight: 300;
 `;
 
-const Title = styled.h4``;
+const Title = styled.h4`
+  font-weight: 500;
+`;
 
 const ProjectInfo = styled.p``;
 
