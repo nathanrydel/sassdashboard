@@ -64,4 +64,9 @@ const Description = styled.div`
 const Title = styled.h3`
   font-weight: 500;
 `;
+
+const SubTitle = styled.h5`
+  font-weight: 300;
+`;
+
 export default Projects;
