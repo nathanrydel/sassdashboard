@@ -43,4 +43,10 @@ const UserProjects = styled.div`
   }
 `;
 
+const Project = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+`;
+
 export default Projects;
