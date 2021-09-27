@@ -35,7 +35,18 @@ function Recommendations() {
   );
 }
 
-const RecommendProject = styled.div``;
+const RecommendProject = styled.div`
+  border-radius: 1rem;
+  height: 125%;
+  padding: 1rem;
+  background-color: white;
+  width: 28vw;
+  box-shadow: ${cardShadow};
+  transition: 0.5s ease-in-out;
+  &:hover {
+    box-shadow: ${hoverEffect};
+  }
+`;
 
 const CardContent = styled.div``;
 
