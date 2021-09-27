@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Navbar from './Navbar';
 import Earnings from './Earnings';
+import Info from './Info';
 
 function MainContent() {
   return (
@@ -11,6 +12,7 @@ function MainContent() {
         <EandPSection>
           <EarningsColumn>
             <Earnings />
+            <Info />
           </EarningsColumn>
           <ProjectsColumn>
             <TitleText>Your Projects</TitleText>
@@ -24,6 +26,7 @@ function MainContent() {
           </InvoiceColumn>
           <ProjectRecsCol>
             <TitleText>Recommended Projects</TitleText>
+            <Recommendations />
           </ProjectRecsCol>
         </IandPRSection>
       </SubContainer>
