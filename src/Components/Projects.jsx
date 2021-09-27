@@ -69,4 +69,10 @@ const SubTitle = styled.h5`
   font-weight: 300;
 `;
 
+const AllProjects = styled.h5`
+  text-align: end;
+  color: ${themeColor};
+  cursor: pointer;
+`;
+
 export default Projects;
