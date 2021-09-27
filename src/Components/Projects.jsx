@@ -61,4 +61,7 @@ const Description = styled.div`
   margin-left: 1rem;
 `;
 
+const Title = styled.h3`
+  font-weight: 500;
+`;
 export default Projects;
