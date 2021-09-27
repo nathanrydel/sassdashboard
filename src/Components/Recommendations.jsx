@@ -21,7 +21,11 @@ function Recommendations() {
           <Badge content='Design' />
         </Detail>
         <Title>Need a graphic designer to update my business's branding</Title>
-        <ProjectInfo>Looking for a graphic</ProjectInfo>
+        <ProjectInfo>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio velit aut dolores explicabo quis, architecto cupiditate adipisci,
+          illo harum molestiae voluptatem. Cumque id debitis dolor nemo eaque quos delectus reiciendis tempora eius, nulla quibusdam optio,
+          non vero ducimus sunt nostrum!
+        </ProjectInfo>
       </CardContent>
     </RecommendProject>
   );
