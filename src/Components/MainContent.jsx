@@ -5,6 +5,7 @@ import Earnings from './Earnings';
 import Info from './Info';
 import Projects from './Projects';
 import Invoices from './Invoices';
+import Slack from './Slack';
 
 function MainContent() {
   return (
@@ -27,6 +28,7 @@ function MainContent() {
               <TitleText>Recent Invoices</TitleText>
               <Invoices />
             </InvoiceContainer>
+            <Slack />
           </InvoiceColumn>
           <ProjectRecsCol>
             <TitleText>Recommended Projects</TitleText>
